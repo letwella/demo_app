@@ -32,6 +32,8 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+gem 'protected_attributes'
+
 group :production do
   gem 'pg', '0.12.2'
 end
