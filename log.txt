@@ -1,33 +1,3 @@
-2014-01-09T09:33:05.380413+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/engine.rb:462:in `eager_load!'
-2014-01-09T09:33:05.380413+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/engine.rb:347:in `eager_load!'
-2014-01-09T09:33:05.380413+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/application/finisher.rb:56:in `each'
-2014-01-09T09:33:05.380587+00:00 app[web.1]: 	from /app/vendor/ruby-1.9.3/lib/ruby/1.9.1/tsort.rb:219:in `each_strongly_connected_component_from'
-2014-01-09T09:33:05.380587+00:00 app[web.1]: 	from /app/vendor/ruby-1.9.3/lib/ruby/1.9.1/tsort.rb:182:in `block in each_strongly_connected_component'
-2014-01-09T09:33:05.380413+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/application/finisher.rb:56:in `block in <module:Finisher>'
-2014-01-09T09:33:05.380413+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/initializable.rb:30:in `instance_exec'
-2014-01-09T09:33:05.380413+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/initializable.rb:30:in `run'
-2014-01-09T09:33:05.380587+00:00 app[web.1]: 	from /app/vendor/ruby-1.9.3/lib/ruby/1.9.1/tsort.rb:180:in `each'
-2014-01-09T09:33:05.380587+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/initializable.rb:55:in `block in run_initializers'
-2014-01-09T09:33:05.380587+00:00 app[web.1]: 	from /app/vendor/ruby-1.9.3/lib/ruby/1.9.1/tsort.rb:150:in `block in tsort_each'
-2014-01-09T09:33:05.380587+00:00 app[web.1]: 	from /app/vendor/ruby-1.9.3/lib/ruby/1.9.1/tsort.rb:183:in `block (2 levels) in each_strongly_connected_component'
-2014-01-09T09:33:05.380587+00:00 app[web.1]: 	from /app/vendor/ruby-1.9.3/lib/ruby/1.9.1/tsort.rb:180:in `each_strongly_connected_component'
-2014-01-09T09:33:05.381240+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/builder.rb:40:in `parse_file'
-2014-01-09T09:33:05.381062+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/builder.rb:55:in `instance_eval'
-2014-01-09T09:33:05.381062+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/builder.rb:55:in `initialize'
-2014-01-09T09:33:05.381062+00:00 app[web.1]: 	from /app/config.ru:in `new'
-2014-01-09T09:33:05.381062+00:00 app[web.1]: 	from /app/config.ru:in `<main>'
-2014-01-09T09:33:05.381062+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/builder.rb:49:in `eval'
-2014-01-09T09:33:05.381062+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/builder.rb:49:in `new_from_string'
-2014-01-09T09:33:05.381240+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/server.rb:277:in `build_app_and_options_from_config'
-2014-01-09T09:33:05.381240+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/server.rb:314:in `wrapped_app'
-2014-01-09T09:33:05.381240+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/commands/server.rb:75:in `start'
-2014-01-09T09:33:05.381240+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/commands.rb:76:in `block in <top (required)>'
-2014-01-09T09:33:05.381240+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/server.rb:199:in `app'
-2014-01-09T09:33:05.381240+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/commands/server.rb:48:in `app'
-2014-01-09T09:33:05.381240+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/commands.rb:71:in `tap'
-2014-01-09T09:33:05.400657+00:00 app[web.1]: => Booting WEBrick
-2014-01-09T09:33:05.381240+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/commands.rb:71:in `<top (required)>'
-2014-01-09T09:33:05.381240+00:00 app[web.1]: 	from bin/rails:4:in `require'
 2014-01-09T09:33:05.381613+00:00 app[web.1]: 	from bin/rails:4:in `<main>'
 2014-01-09T09:33:05.400657+00:00 app[web.1]: => Rails 4.0.2 application starting in production on http://0.0.0.0:4310
 2014-01-09T09:33:05.400657+00:00 app[web.1]: => Ctrl-C to shutdown server
@@ -99,3 +69,33 @@
 2014-01-09T09:37:35.898600+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/favicon.ico host=shielded-journey-7771.herokuapp.com fwd="46.0.180.29" dyno= connect= service= status=503 bytes=
 2014-01-09T09:39:43.959150+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/ host=shielded-journey-7771.herokuapp.com fwd="46.0.180.29" dyno= connect= service= status=503 bytes=
 2014-01-09T09:52:22.125639+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/ host=shielded-journey-7771.herokuapp.com fwd="46.0.180.29" dyno= connect= service= status=503 bytes=
+2014-01-09T10:53:52.941973+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/ host=shielded-journey-7771.herokuapp.com fwd="46.0.180.29" dyno= connect= service= status=503 bytes=
+2014-01-09T10:59:53.079302+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/ host=shielded-journey-7771.herokuapp.com fwd="46.0.180.29" dyno= connect= service= status=503 bytes=
+2014-01-09T11:21:13+00:00 heroku[slug-compiler]: Slug compilation started
+2014-01-09T11:21:45+00:00 heroku[slug-compiler]: Slug compilation finished
+2014-01-09T11:21:45.558581+00:00 heroku[web.1]: State changed from crashed to starting
+2014-01-09T11:21:48.897139+00:00 heroku[web.1]: Starting process with command `bin/rails server -p 39420 -e $RAILS_ENV`
+2014-01-09T11:21:53.126465+00:00 app[web.1]: [2014-01-09 11:21:53] INFO  WEBrick 1.3.1
+2014-01-09T11:21:53.126575+00:00 app[web.1]: [2014-01-09 11:21:53] INFO  ruby 1.9.3 (2013-11-22) [x86_64-linux]
+2014-01-09T11:21:53.127190+00:00 app[web.1]: [2014-01-09 11:21:53] INFO  WEBrick::HTTPServer#start: pid=2 port=39420
+2014-01-09T11:21:53.343707+00:00 heroku[web.1]: State changed from starting to up
+2014-01-09T11:21:44.928030+00:00 heroku[api]: Deploy 3772f5b by letwella@gmail.com
+2014-01-09T11:21:44.951931+00:00 heroku[api]: Release v6 created by letwella@gmail.com
+2014-01-09T11:22:43.811346+00:00 heroku[router]: at=info method=GET path=/ host=shielded-journey-7771.herokuapp.com fwd="46.0.180.29" dyno=web.1 connect=12ms service=247ms status=500 bytes=1266
+2014-01-09T11:52:28+00:00 heroku[slug-compiler]: Slug compilation started
+2014-01-09T11:53:03.260397+00:00 heroku[api]: Deploy 56b30bb by letwella@gmail.com
+2014-01-09T11:53:03.281640+00:00 heroku[api]: Release v7 created by letwella@gmail.com
+2014-01-09T11:53:03+00:00 heroku[slug-compiler]: Slug compilation finished
+2014-01-09T11:53:03.779863+00:00 heroku[web.1]: State changed from up to starting
+2014-01-09T11:53:07.334001+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2014-01-09T11:53:08.027290+00:00 heroku[web.1]: Starting process with command `bin/rails server -p 32054 -e $RAILS_ENV`
+2014-01-09T11:53:08.095946+00:00 app[web.1]: [2014-01-09 11:53:08] ERROR SignalException: SIGTERM
+2014-01-09T11:53:08.095946+00:00 app[web.1]: 	/app/vendor/ruby-1.9.3/lib/ruby/1.9.1/webrick/server.rb:98:in `select'
+2014-01-09T11:53:16.415411+00:00 app[web.1]: [2014-01-09 11:53:16] INFO  WEBrick::HTTPServer#start: pid=2 port=32054
+2014-01-09T11:53:16.415294+00:00 app[web.1]: [2014-01-09 11:53:16] INFO  WEBrick 1.3.1
+2014-01-09T11:53:16.415294+00:00 app[web.1]: [2014-01-09 11:53:16] INFO  ruby 1.9.3 (2013-11-22) [x86_64-linux]
+2014-01-09T11:53:16.745217+00:00 heroku[web.1]: State changed from starting to up
+2014-01-09T11:53:17.792642+00:00 heroku[web.1]: Error R12 (Exit timeout) -> At least one process failed to exit within 10 seconds of SIGTERM
+2014-01-09T11:53:17.792852+00:00 heroku[web.1]: Stopping remaining processes with SIGKILL
+2014-01-09T11:53:20.038016+00:00 heroku[web.1]: Process exited with status 137
+2014-01-09T11:55:39.041105+00:00 heroku[router]: at=info method=GET path=/ host=shielded-journey-7771.herokuapp.com fwd="46.0.180.29" dyno=web.1 connect=1ms service=199ms status=500 bytes=1266
