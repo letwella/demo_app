@@ -45,6 +45,10 @@ group :production do
   gem 'pg', '0.15.1'
 end
 
+group :development do
+  gem "debugger"
+end
+
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
